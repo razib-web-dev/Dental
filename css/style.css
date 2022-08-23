@@ -1,0 +1,740 @@
+/*All Common Css Start*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    line-height: 0.9;
+}
+ol, ul{
+    list-style-type: none;
+}
+/*All Common Css End*/
+/* ===========Top bar Start============= */
+#top{
+    background:#222222 ;
+    line-height: 40px;
+}
+.right_icon a i{
+    margin-right: 13px;
+    color: #30aad7;
+    font-size: 17px;
+}
+.right_icon a {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 45px;
+}
+.left_icon a i{
+    font-size: 17px;
+    color: #fff;
+    margin-right: 5px;
+}
+/* ===========Top bar End============= */
+
+/* ===========Banner part Start============= */
+#banner{
+    background: url(../images/Homepage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner_overly{
+    background: rgba(17, 17, 17, 0.70);
+    padding-top: 30px;
+    padding-bottom: 260px;
+}
+.logo{
+    height: 150px;
+    width: 180px;
+}
+.logo img{
+    width: 100%;
+}
+.banner_text h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 150px;
+
+}
+.banner_text h5{
+    margin-left: 15px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.btn .btn_one{
+    background: #9b95c9;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 34px 14px 34px;
+    color: #fff;
+    margin-right: 10px;
+}
+.btn .btn_two{
+    background: #30aad7;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 34px 14px 34px;
+    color: #fff;
+    margin-right: 10px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.btn .btn_one:hover{
+    color: black;
+}
+.btn .btn_two:hover{
+    color: black;
+}
+/* ===========Banner part End============= */
+/* ===========Banner bottom part Start============= */
+.relaxed{
+    background: #61c2ee;
+}
+.relaxed h2{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.friendly{
+    background: #30aad7;
+}
+.friendly h2{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.latest_technology{
+    background: #005b8b;
+}
+.latest_technology h2{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+/* ===========Banner bottom part End============= */
+
+#dentist{
+    padding: 100px 0px;
+    
+}
+.dentist_text span{
+    display: block;
+    color: #005b8b;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    
+
+}
+.dentist_text p{
+    color: #555555;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.dentist_service{
+    background: #eff9fd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 10px 30px #555555;
+}
+.dentist_service:hover{
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+.dentist_item{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.dentist_item_text h2{
+    color: #555555;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #555555;
+    font-size: 14px;
+
+}
+.dentist_item_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #555555;
+    font-size: 14px;
+    padding: 15px 15px 20px 15px;
+}
+
+/*================latest Part Start=================*/
+#latest_tec{
+    background: url(../images/latest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 167px;
+    padding-bottom: 167px;
+}
+.latest_tec_text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #005b8b;
+    font-family: 'Montserrat', sans-serif;
+}
+.latest_tec_text h5{
+    font-size: 24px;
+    font-weight: 300;
+    color: #30aad7;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+.latest_tec_text p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+}
+/*================latest Part End==================*/
+
+
+
+/*================friendly Part Start==================*/
+#friendly{
+    background: url(../images/friendly.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 167px;
+    padding-bottom: 167px;
+}
+.friendly_text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #005b8b;
+    font-family: 'Montserrat', sans-serif;
+}
+.friendly_text h5{
+    font-size: 24px;
+    font-weight: 300;
+    color: #30aad7;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.friendly_text h5 span{
+    display: block;
+    padding-top: 5px;
+}
+.friendly_text p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+}
+/*================friendly Part End==================*/
+
+/*================Trust Part Start=================*/
+#trust{
+    background: #61c2ee;
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+.trust_text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.trust_text p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+.trust_text a{
+    background: #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 34px 14px 34px;
+    color: #111;
+}
+/*================Trust Part End=================*/
+/*================Great health Part Start=================*/
+#great_health{
+    padding-top: 100px;
+    padding-bottom:100px ;
+}
+.great_health_text h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #005b8b;
+    font-family: 'Montserrat', sans-serif;
+}
+.great_health_text p{
+    width: 780px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.great_health_service img{
+    /* border: 1px solid red; */
+    padding: 40px;
+    height: 171px;
+    width: 171px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #eff9fd;
+    position: relative;
+}
+.great_health_service button{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    left: 59%;
+    background: #005b8b;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.great_health_service h3{
+    font-size: 24px;
+    color: #555555;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top:28px;
+    padding-bottom: 15px;
+}
+.great_health_service p{
+    font-size: 14px;
+    color: #555555;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 60px;
+}
+/*================Great health Part End=================*/
+
+/*================Our Testimonials Part Start=================*/
+#testimonials{
+    background: #30aad7;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.testimonials_title h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+.testimonials_slick_part{
+    background: #fff;
+    width: 880px;
+    padding-top: 55px;
+    padding-bottom: 40px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.testimonials_slick_text .quote_left {
+	position: absolute;
+	top: 40px;
+	left: 56px;
+    color: #9b95c9;
+}
+.testimonials_slick_text .quote_right {
+	position: absolute;
+	bottom: 127px;
+	right: 65px;
+    color: #9b95c9;
+}
+.testimonials_slick_text p{
+    text-align: center;
+    color: #555555;
+    font-size: 18px;
+    line-height: 24px;
+    width: 672px;
+    margin: 0 auto;
+}
+.testimonials_img{
+    padding-top: 30px;
+}
+.testimonials_img_name {
+   padding-left: 20px;
+}
+.testimonials_img_name h3{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.testimonials_img_name h4{
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.pre{
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -90px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 111;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+.nex {
+	background: transparent;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: -90px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	z-index: 111;
+	border: 1px solid #ddd;
+	color: #fff;
+}
+/*================Our Testimonials Part End=================*/
+/*================Our Service Part Start=================*/
+#service{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.service_title h2{
+    color: #005b8b;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.service_text_right p{
+    font-size: 16px;
+    color: #555555;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5px;
+}
+.service_text_right b{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.service_text_right span{
+    margin-left: 40px;
+}
+.service_text_right i{
+    color:#fff ;
+    background: #30aad7;
+    margin-right: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.service_text_left p{
+    font-size: 16px;
+    color: #555555;
+    padding-bottom: 2px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.service_text_left b{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.service_text_left span{
+    margin-left: 40px;
+    
+}
+.service_text_left i{
+    color:#fff ;
+    background: #30aad7;
+    margin-right: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/*================Our Service Part End=================*/
+/*================Missing Part Start=================*/
+
+#missing{
+    background: #eff9fd;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.missing_text h2{
+    font-size: 48px;
+    color: #005b8b;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.missing_text span{
+    display:block;
+    padding-top: 5px;
+}
+.missing_text p{
+    font-size: 18px;
+    color: #555555;
+    font-weight: 300;
+    width: 920px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/*================Missing Part End=================*/
+/*================About Part Start=================*/
+#about{
+    /* background: url(../images/Homepage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding-top: 108px;
+}
+.about_text h2{
+    font-size: 48px;
+    color: #005b8b;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_text p {
+	color: #555555;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	/* line-height: 22px; */
+    padding-top: 20px;
+}
+.about_text span{
+    padding-top: 20px;
+    display: block;
+}
+.about_text a{
+    font-size: 14px;
+    color: #30aad7;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.about_text a i{
+    padding-left:10px;
+}
+/*================About Part End=================*/
+/*================Smile Part Start=================*/
+#smile{
+    background: #005b8b;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.smile_text h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.smile_text p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+
+}
+/*================Smile Part End=================*/
+/*================Footer Part Start=================*/
+#footer{
+    background: #222222;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.footer_left_part p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    width: 542px;
+    line-height: 22px;
+    padding-top: 35px;
+
+}
+.contact{
+    
+}
+.contact h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+.contact a{
+    display: block;
+    margin-right: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.contact i{
+    margin-right: 10px;
+}
+.contact span{
+    margin-left: 20px;
+}
+.contact span{
+    display: block;
+}
+.hours{
+    /* margin-left: 100px; */
+}
+.hours h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+    
+}
+.hours li{
+    color: #fff;
+    list-style: none;
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer_right_img{
+    padding-top: 80px;
+}
+/*================Footer Part End=================*/
+/*================socket Part Start=================*/
+#socket{
+    background: #1b1b1b;
+    line-height: 60px;
+}
+.socket_text h6{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.socket_text .sp{
+    color: #61c2ee;
+    margin-left: 0px;
+}
+.socket_text span{
+    margin-left: 80px;
+}
+.socket_icon a{
+    height: 14px;
+    width: 15px;
+    margin-left: 10px;
+    
+}
+.socket_icon i{
+    color: #fff;
+}
+/*================socket Part End=================*/
